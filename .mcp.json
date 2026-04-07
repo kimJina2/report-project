@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "cmd",
+      "args": [
+        "/c", "npx", "-y",
+        "@modelcontextprotocol/server-filesystem"
+      ]
+    },
+    "google-drive": {
+      "command": "cmd",
+      "args": [
+        "/c", "npx", "-y",
+        "@piotr-agier/google-drive-mcp"
+      ]
+    },
+    "gmail": {
+      "command": "cmd",
+      "args": [
+        "/c", "npx", "-y",
+        "@gongrzhe/server-gmail-autoauth-mcp"
+      ]
+    }
+  }
+}

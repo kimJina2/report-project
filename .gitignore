@@ -1,0 +1,53 @@
+# 완성된 보고서 파일 (업무 민감 데이터 포함)
+weekly_report/
+
+# 임시 폴더 제외
+tmp/
+
+# 클로드 시스템 파일 제외
+.claude/
+
+# GCP / Google API 인증 키 (개인정보 보호)
+gcp-oauth.keys.json
+*.keys.json
+service-account*.json
+credentials.json
+token.json
+
+# 환경변수 / 비밀 설정
+.env
+.env.*
+*.secret
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+npm-debug.log*
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / 에디터
+.vscode/settings.json
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 로그 파일
+*.logCLAUDE.md.old
